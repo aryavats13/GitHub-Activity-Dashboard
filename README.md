@@ -1,34 +1,28 @@
-# GitHub Activity Analysis Dashboard
+# Git Analysis Dashboard
 
-Welcome to the **GitHub Activity Analysis Dashboard**!  
-This tool helps you understand your GitHub activity and contributions in a simple, visual way.
-
----
+A comprehensive web application for analyzing GitHub repositories with advanced metrics, sentiment analysis, and interactive visualizations.
 
 ## Features
 
-- **Commit Patterns**  
-  See your coding habits over time and discover when you’re most productive.
+- **Repository Analysis:** Deep dive into any GitHub repository with detailed metrics  
+- **Commit History:** Track commit patterns, frequency, and contributor activity  
+- **Sentiment Analysis:** Analyze commit messages and issues using NLP  
+- **Interactive Dashboards:** Visualize data with charts and graphs  
+- **User Authentication:** Secure login and personalized experience  
+- **Real-time Data:** Fetch live data directly from GitHub API  
 
-- **Repository Insights**  
-  Get a clear picture of all your repositories, including how active they are and what languages you use the most.
+## Tech Stack
 
-- **Activity Predictions**  
-  Predict your future GitHub activity based on past trends.
+### Backend
+- **Flask:** Web framework for Python  
+- **SQLAlchemy:** ORM for database management  
+- **NLTK:** Natural Language Processing for sentiment analysis  
+- **GitHub API:** Repository data fetching  
+- **Flask-JWT-Extended:** Authentication and authorization  
 
-- **Personalized Recommendations**  
-  Receive tips to improve your workflow, contribute smarter, and stay consistent.
-
----
-
-## How to Use
-
-1. Connect your GitHub account.  
-2. Explore your activity patterns and repository stats.  
-3. Check predictions and follow recommendations to level up your GitHub game.
-
----
-
-## Why This Project
-
-Ever wondered how your coding habits look over time? This dashboard gives you a clear, interactive way to visualize your work, track progress, and plan your contributions better.
+### Frontend
+- **React:** UI library for building interactive interfaces  
+- **Vite:** Fast build tool and development server  
+- **Tailwind CSS:** Utility-first CSS framework  
+- **Recharts:** Data visualization library  
+- **Axios:** HTTP client for API requests
