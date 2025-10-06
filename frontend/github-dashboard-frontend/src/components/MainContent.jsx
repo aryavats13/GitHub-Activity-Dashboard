@@ -18,8 +18,7 @@ const MainContent = ({ username, token, sidebarOpen }) => {
     setError(null);
 
     try {
-      const backendURL = "https://github-activity-backend.onrender.com";
-
+      const backendURL = "https://github-dashboard-backend-szbw.onrender.com";
       const response = await fetch(`${backendURL}/api/analyze/full/${username}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

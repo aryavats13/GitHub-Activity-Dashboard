@@ -13,9 +13,7 @@ const Auth = () => {
 
   const handleSubmit = async () => {
     setLoading(true);
-
-    const backendURL = "https://github-activity-backend.onrender.com";
-
+    const backendURL = "https://github-dashboard-backend-szbw.onrender.com";
     const endpoint = isLogin 
       ? `${backendURL}/api/auth/login` 
       : `${backendURL}/api/auth/register`;
