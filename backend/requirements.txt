@@ -1,0 +1,11 @@
+Flask
+flask-cors
+requests
+pandas
+numpy
+python-dotenv
+scikit-learn
+nltk
+textblob
+statsmodels
+Flask-SQLAlchemy
